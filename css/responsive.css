@@ -1,0 +1,215 @@
+@media screen and (max-width:767px){
+                                
+                                  .container{
+                                    padding: 0px 15px;
+                                  }
+
+                                  
+                                section{
+                                      padding: 10px 0px;
+                                  }
+                                   
+                                  h1,h2,p{
+                                    margin:10px 0px 10px ;
+                                  }
+                     /* -------------------------------------------------------------------- */
+                                                   /* header */
+                                                                         /* // we can used in the risponsive */
+                                                   .header-manu{          
+                                                    display: none;
+                                                    position: fixed ;
+                                                    height: 50vh;
+                                                    background-color:black;
+                                                    left: 0;
+                                                    top: 0;
+                                                    width: 50%;
+                                                    z-index: 9;
+                                                   
+                                                   }
+
+                                                   .nav-togal span{
+                                                    display: block;
+                                                   }
+
+                                                  .show{
+                                                    display: block;
+                                                  }
+
+                                                  .header-manu nav ul {
+                                                    flex-direction: column;
+                                                  }
+                    /* --------------------------------------------------------------------------- */
+                                                /* banar section  */
+                                            
+                                                .banar-main{
+                                                    flex-wrap: wrap;
+                                                }
+                                                   .banar-inner {
+                                                    width: 100%;
+                                                }
+                                                .banar-section {
+                                                    padding: 0px 0 0px;
+                                                }
+                                                .banar-contend h1 {
+                                                  font-size: 32px;
+                                                  font-weight: 700;
+                                                  line-height: 40px;
+                                                }
+
+
+                                                .banar-right-main {
+         
+                                                  display: inline;
+                                              }
+                                         
+                                              
+                                              .banar-i {
+                                                width: 51%;
+                                                position: absolute;
+                                                left: 120px;
+                                                top: 197px;
+                                              }
+                                        
+                                              
+                                              .banar-section {
+                                                  position: relative;
+                                              }
+                                              
+                                              .banar-button-inner img {
+                                                  width: 100px;
+                                              }
+                                        
+                                              
+                                              .banar-button-inner a {
+                                                  width: 20px;
+                                              }
+                                              
+                                              .banar-main {
+                                                  padding: 0px 0px 200px;
+                                              }
+                    /* --------------------------------------------------------------------------------- */
+                                                   /* App-Work */
+                                               
+                                                   .App-Work-main{
+                                                    flex-wrap: wrap;
+                                                   }
+                                                .App-Work-introduction-data{
+                                                    width: 300px;
+                                                }
+
+                                                .App-Work-inner{
+                                                    width: 100%;
+                                                }
+                                                .App-Work-introduction h1{
+                                                    font-size: 22px;
+                                                }
+                                                .App-Work-introduction h1 {
+                                                    margin-top: 0px;
+                                                    margin-bottom: 10px;
+                                                }
+                                                .App-Work-introduction-data {
+                                                    
+                                                    padding-bottom: 0px;
+                                                }
+                                                .App-Work-Retailer-inner-p p {
+                                                    margin-bottom: 30px;
+                                                }
+                                                .App-Work-Wholesaler-main {
+                                                  margin-top: 10px;
+                                              }
+                                              .App-Work-introduction h1 {
+                                                font-size: 26px;
+                                                font-weight: 700;
+                                            }
+                                      
+                     /* --------------------------------------------------------------------------------- */
+                                                /* Features-for-retailers */
+
+                                                .Features-for-retailer-main{
+                                                    flex-wrap: wrap;
+                                                }
+                                                .Features-for-retailer-inner {
+                                                                        width: 100%;
+                                                                       }
+
+                                                
+
+                                                .Features-for-retailer-contend h1{
+                                                    font-size: 26px;
+                                                }
+                                                .Features-for-retailer-contend p {
+                                                    padding-bottom: 0px;
+                                                }
+                    /* -------------------------------------------------------------------------------------- */
+                                                 /* wholesaler-feature */
+                                                 .Features-for-wholesale-main{
+                                                    flex-wrap: wrap-reverse;
+                                                 }
+                                                 .Features-for-wholesale-inner{
+                                                    width: 100%;
+                                                 }
+
+                                                 .Features-for-wholesale-contend h1{
+                                                    font-size: 26px;
+                                                }
+                                                .Features-for-wholesale-contend p {
+                                                    padding-bottom: 0px;
+                                                }
+                    /* --------------------------------------------------------------------------------------- */
+                                                        /* Our-clients */
+                                                      .Our-clients-conte{
+                                                         
+                                                          width: 250px;
+                                                         
+                                                      }
+                    /* ------------------------------------------------------------------------------------------- */
+                                                         /* Contact-us */
+                                                      .contact-flx{
+                                                        flex-wrap: wrap;
+                                                      }
+                                                      .contact-flx-inner{
+                                                        width: 100%;       
+                                                      }
+
+                                                      /* .addres-main ul~li{
+                                                        padding-top: 10px;
+                                                      } */
+
+                                                      .addres-main li +li{
+                                                        padding-top: 10px;
+                                                      }
+                                                      .Contact-left{
+                                                        text-align: center;
+                                                      }
+                                                      .button-form {
+                                                        width: 100%;
+                                                        text-align: center;
+                                                    }
+                                                    .contact-main {
+                                                        padding: 15px 0;
+                                                    }
+                             /* -------------------------------------------------------------- */
+                                                      .footer-top{
+                                                        flex-wrap: wrap;
+                                                        justify-content: center;
+                                                        padding-top: 0px;
+                                                        
+                                                      }
+                                                     
+                               
+                                                      
+        /* ---------------------------------------------------------------------------------------------------------------- */
+      
+        .footer-left {
+          width: 100%;
+      }
+      
+      .footer-manu li {
+          width: 75px;
+      }
+      
+      .artical-left-deta p {
+          margin: 0px;
+      }
+                                                     
+}

@@ -1,0 +1,541 @@
+* {
+    box-sizing: border-box; 
+  
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+p {
+    line-height: 22px;
+    color: #000000;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #000000;
+}
+
+h2{
+    font-size:24px;
+    font-weight: 600;
+    line-height: 30px;
+    color: black;
+}
+p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color:#555555
+}
+
+
+img{
+    max-width: 100%
+}
+
+
+a {
+    color: beige;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+input{
+    width: 100%;
+    padding: 25px;
+    border: 1px solid #ffffff;
+}
+textarea{
+    width: 100%;
+    padding: 25px;
+    border: 1px solid #ffffff;
+   resize: none;
+}
+.btn {
+    width: 75%;
+    padding: 10px 14px;
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+    font-family: Poppins;
+    background: #ffffff;
+    border-radius: 5px;
+    border: 1px solid #ededed;
+    transition: all .3s;
+    background-color: #0074FD;
+}
+
+a {
+    color: beige;
+    text-decoration: none;
+}
+
+section{
+    padding: 80px 0;
+}
+
+/* @media screen and (max-width:767px){
+   
+} */
+    /* ------------------------ used for the mobile--------------  */
+
+
+/* --------------------------------------container-----------------------------------------------------------*/
+ .container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* ---------------------------------------------header--------------------------------------------------- */
+
+header {
+    background-color: #0074FD;
+}
+
+.header-main {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+
+.header-manu nav ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+                  /* // we can used in reisponsive nav bar  */
+.nav-togal span{
+    color: white;
+    font-size: 30px;
+    display: none;
+}
+.header-manu {
+    margin-left: auto;
+}
+/* .show{
+    display: block;
+} */
+/* ---------------------------------------------one page-------------------------------------------- */
+.banar-section {
+
+    background-image: url("/images/banar-section-background-image.png");
+    background-size: cover;
+    padding: 80px 0 50px;
+
+}
+
+.banar-main {
+    display: flex;
+   
+ align-items: center;
+ justify-content: space-between;
+
+
+}
+
+.banar-inner {
+    width: 50%;
+    
+}
+
+
+.banar-contend h1 {
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 72px;
+   
+
+}
+
+.banar-contend p {
+    margin-top:10px ;
+    margin-bottom:10px ;
+}
+.banar-right-main{
+    display: flex;
+ 
+    align-items: center;
+    gap:10px;
+    margin-top: 25px;
+}
+.banar-i {
+    text-align: right;
+}
+
+
+.banar-i img{
+    width: 350px;
+}
+/* ------------------------------------------mobile app -------------------------------------------- */
+/* @media screen and (max-width:767px){
+
+    .banar-inner {
+            width: 100%;  
+        }
+
+        .banar-i img{
+            width: 350px;
+        }
+
+        .banar-i {
+            text-align: center;
+        }
+
+        .banar-contend h1 {
+            font-size: 31px;
+            font-weight: 700;
+            line-height: 51px;
+        }
+       
+    } */
+
+
+/* -----------------------------------------app work----------------------------------------------- */
+.App-Work {
+    background-color: #F6F6F6;
+    
+}
+
+.App-Work-introduction-data {
+   
+    text-align: center;
+   width: 500px;
+   margin: 0 auto;
+   padding-bottom: 35px;
+  
+}
+.App-Work-introduction h1{
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.App-Work-introduction p{
+    margin-top: 0;
+  font-size: 14px;
+
+}
+
+
+
+.App-Work-main {
+    display: flex;
+  
+    align-items: center;
+
+}
+
+.App-Work-inner {
+    width: 50%;
+    padding: 0 10px;
+}
+
+
+.App-Work-image{
+    text-align: left;
+}
+
+
+.App-Work-image img{
+    width: 370px;
+}
+
+.App-Work-contend ul{
+    padding: 0;
+}
+
+.App-Work-contend li {
+    list-style: none;
+}
+
+.App-Work-contend img {
+    width: 50px;
+
+}
+/* ----------------------------------------------------------------------------------------------  */
+/* @media screen and (max-width:767px){
+    .App-Work-inner {
+        width: 100%;
+        padding: 0 10px;
+    }
+    .App-Work-image{
+        text-align: center;
+    }
+} */
+
+/* ---------------------------------------------------------------------------------------------  */
+/* Retailer ,Wholesaler,Driver--------------------we can used the display:flex */
+/* .App-Work-Retailer-inner-img-h1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+    gap: 20px
+} */
+
+/* --------------------- position ------------------------ we can used the position:relative and absolute */
+.App-Work-Retailer-inner-img-h1{
+    position: relative;
+    margin-bottom: 23px;
+  
+    
+}
+.App-Work-Retailer-inner-image{
+    position: absolute;
+    top:-11px;
+    
+}
+.App-Work-Retailer-inner-h2{
+    padding-left: 70px;
+    
+}
+.App-Work-Retailer-inner-h2 h2{
+    margin: 0;
+}
+.App-Work-Wholesaler-main{
+    margin-top: 30px;
+}
+.App-Work-Retailer-inner-p p{
+    /* font-size: 14px;
+    margin: 0;
+    line-height: 24px;
+    color: #555555; */
+    margin-bottom: 25px;
+}
+
+
+
+/* -------------------------------------Features-for-retailer------------------------------------------------------- */
+
+
+.Features-for-retailer-main {
+    display: flex;
+  
+    align-items: center;
+
+}
+
+.Features-for-retailer-inner {
+    width: 50%;
+   
+}
+
+
+.Features-for-retailer-contend p {
+
+    padding-bottom: 10px;
+}
+
+
+.Features-for-retailer-image{
+    text-align: right;
+}
+
+
+.Features-for-retailer-image img{
+    width: 370px;
+}
+/* ---------------------------------------mobile app ---------------------------------------------------------- 
+ */
+
+ /* @media screen and (max-width:767px){
+    .Features-for-retailer-inner {
+        width: 100%;
+       
+    }
+
+    .Features-for-retailer-image{
+        text-align: center;
+    }
+} */
+
+
+
+/* ---------------------------------------Features-for-wholesale------------------------------------------------------ */
+
+.Features-for-wholesale-main {
+    display: flex;
+ 
+ 
+    align-items: center;
+
+
+}
+
+.Features-for-wholesale-inner {
+    width: 50%;
+}
+
+
+
+.Features-for-wholesale-image{
+    text-align: left;
+}
+
+
+.Features-for-wholesale-image img{
+    width: 370px
+}
+.Features-for-wholesale-contend p {
+
+    padding-bottom: 10px;
+}
+
+/* ---------------------------------mobile app ------------------------------------------------------- 
+ */
+
+ /* @media screen and (max-width:767px){
+    .Features-for-wholesale-inner {
+        width: 100%;
+    }
+
+    .Features-for-wholesale-image{
+        text-align: center;
+    }
+    
+} */
+
+/* -----------------------------------------Our-clients-------------------------------------------------------- */
+
+.Our-clients-conte{
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+    padding-bottom: 35px
+}
+.Our-clients-page{
+    display: flex;
+    gap:1px;
+    align-content: center;
+   
+
+}
+.Our-clients-images{
+    padding-left: 40px;
+    margin-bottom: 40px;
+}
+.Our-clients-introduction h1,p{
+    margin: 0;
+}
+
+
+/* -------------------------------------Contact-us-------------------------------------------------------------- */
+.contact-section{
+    background-color: #F6F6F6;
+}
+
+.contact-flx {
+    display: flex;
+  
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.contact-flx-inner {
+    width: 40%;
+}
+
+
+
+.addres-dtl{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.addres-dtl span{
+    background-color: blue;
+    height: 30px;
+    display: flex;    
+    width: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%
+}
+.contact-main{
+    padding: 40px 0;
+    
+}
+
+.form-main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    align-items: center;
+ 
+}
+
+.form-inner {
+    flex: 48%;
+}
+.contact-button {
+    margin-top: 20px;
+}
+
+.addres-main ul{
+    padding: 0;
+}
+
+/* @media screen and (max-width:767px){
+    .contact-flx-inner {
+        width: 100%;
+    }
+} */
+
+/*--------------------------------------------------------------- */
+
+.footer-top{
+
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    border-bottom: 1px solid black;
+
+}
+.footer-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-manu nav ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    align-items: center;
+   
+}
+
+.artical-left-deta{
+    display: flex;
+    flex-wrap: wrap;
+    gap:5px;
+    
+}
+
+.artical-left-deta{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.artical-left-deta a{
+    color: black;
+}
